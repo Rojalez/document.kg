@@ -1,0 +1,274 @@
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+
+/* body {
+  background: rgba(0, 0, 0, 0.809);
+} */
+
+
+#top-lawyers{
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+    #top-mob {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+#gerb {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* banners */
+
+#banner-top {
+    background-color: rgb(70, 70, 70);
+    height: 100%;
+    width: 100%;
+}
+
+
+.ck-editor__editable {
+    min-height: 200px;
+}
+
+
+
+/*Радиоблок*/
+#radioblock{
+    width: 29%;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: auto;
+    height: 1000px;
+}
+@media (max-width: 768px) {
+    #radioblock{
+        position: fixed;
+        bottom: -10px;
+        left: 0;
+        margin: 0 auto;
+        height: auto;
+        width:100%; 
+        z-index: 3000;
+        border: 0px !important;
+    }
+    .zagolovoc{
+    display: none;
+}
+  .zagolovoc .metka{
+    display:none;
+
+  }}
+
+@media (min-width: 768px) {
+    #radioblock button{
+        display:none;
+  }}
+
+@media (min-width: 768px) {
+    #radioblock .button-privyazka{
+        display:inline-block;
+  }}
+
+
+
+
+
+.vopros {
+    text-align: left;
+    margin-top: 10px;
+  	text-transform: uppercase;
+}
+.zagolovoc{
+   background: rgb(241, 241, 241);
+   border-radius: .375rem;
+}
+
+
+
+.zagolovoc h3{
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+
+.option label{
+    font-size: 13px;
+}
+
+.option{
+    padding-left: 10px;
+}
+
+label{
+    display: inline-block;
+    word-wrap: break-word;
+    margin-left: 5px;
+}
+
+#button-privyazka{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.form-item.radio-btn.nth-2 label{
+    font-size: 13px;
+}
+
+.form-item.radio-btn.nth-2{
+    margin-left: 10px;
+}
+
+
+/*Конец радиоблоков*/
+
+/*Текстовый блок*/
+.textblock {
+    color: black;
+    width: 70%;   /* ширина */
+    
+    background-color: white;  /* цвет фона в блоке */
+    font-family:  "Times New Roman"; /* нужный шрифт */
+    margin-bottom: 20px;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .textblock{
+        width: 100%;
+    }
+    .num{
+        font-size: 20px;
+    }
+
+    .textblock h3{
+        font-size: 20px;
+    }
+    
+}
+
+.hide {
+    display: none;
+}
+
+#ty{
+    height: 900px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+
+}
+#ty h2, h3{
+    text-align: center;
+    font-family:  "Times New Roman";
+    padding: 0px 20px 0px 50px;
+    font-weight: 600;
+
+}
+
+#ty h4{
+    font-family:  "Times New Roman";
+    text-align: justify;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: thin;
+    padding: 0px 20px 0px 50px;
+    color: #424242;
+
+}
+
+#ty p{
+
+    text-align: justify;
+    font-family:  "Times New Roman";
+    padding: 0px 20px 0px 50px;
+    line-height: 20px;
+}
+
+.number{
+    font-weight: 600;
+    padding-right: 2%;
+}
+/*Конец */
+
+
+
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20rem; }
+.toggle.ios .toggle-handle { border-radius: 20rem; }
+
+
+/*/main-page*/
+/*Редактируемый контент*/
+span[contenteditable] {
+    font-family:  "Times New Roman"; /* нужный шрифт */
+    color: #007bff;
+    cursor: pointer;
+}
+span[contenteditable]:empty::before {
+    content: attr(placeholder);
+    font-family:  "Times New Roman"; /* нужный шрифт */
+
+
+}
+span[contenteditable]:empty:focus::before {
+    content: attr(placeholder);
+
+    font-family:  "Times New Roman"; /* нужный шрифт */
+
+}
+/*Конец*/
+
+/*Нумерация документа*/
+#radioblock span {
+ font-family:  "Times New Roman"; /* нужный шрифт */
+}
+.textblock span {
+font-family:  "Times New Roman";
+}
+/*Конец*/
+
+
+
+#search-on-show-result {
+	max-height:300px;
+  	overflow:auto;
+}
+
+#search-on-show-result p:hover {
+	color: blue;
+  	text-decoration:underline;
+}
+
+.podsvetka{
+background:rgba(0, 113, 227, 0.253);
+  border-radius:3px;
+
+}
+
+  .radius {
+    min-height: 300px;
+    min-width: 230px;
+    margin-right: 5px;
+    border-radius: 13px;
+
+}
+   .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail{
+     display:none;
+   }
+
+
+

@@ -1,0 +1,545 @@
+
+/*НПА*/
+
+
+.tools-npa{
+   width: 100%;
+   margin-right: 20px;
+   border: 1px solid #d2d2d7;
+   border-radius: 5px; 
+   margin-bottom: 20px;
+   height: 100%;
+   z-index: 3000;
+   background: #ffffff;
+   
+}
+.tool-icons{
+text-align: center;
+}
+
+.tool-icons i{
+	font-size: 2vmax;
+	margin: 5px;
+}
+.content-npa{
+  width: 100%;
+  margin-bottom:20px;
+  line-height: 17px;
+  
+}
+
+.content-npa pre{
+	background: white;
+    padding: 20px; /* внутренние отступы - верх, право, низ, лево */
+    margin: 0 auto;  /* выравнивание по центру */ 
+	font-size: 1.5vw;
+	
+	}
+
+
+
+		@media (max-width: 768px) {
+		.content-npa{
+		font-size: 10px;
+		letter-spacing: 0.0001rem;
+		line-height: 8px;
+
+		}
+		.content-npa pre{
+		font-size: 1.3vw;
+
+		}
+	}
+
+#gerb {
+	display: none;
+}
+
+.WordSection1{
+	padding: 20px;
+}
+
+/* Font Definitions */
+ @font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:19.85pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+h1
+	{mso-style-link:"Заголовок 1 Знак";
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";}
+h2
+	{mso-style-link:"Заголовок 2 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+h3
+	{mso-style-link:"Заголовок 3 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-indent:19.85pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+h4
+	{mso-style-link:"Заголовок 4 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-indent:19.85pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+
+h6
+	{mso-style-link:"Заголовок 6 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:19.85pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:#243F60;
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Заголовок 7 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:19.85pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:#404040;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Заголовок 8 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:19.85pt;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	color:#4F81BD;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Заголовок 9 Знак";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:19.85pt;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	color:#404040;
+	font-style:italic;}
+p.MsoNormalIndent, li.MsoNormalIndent, div.MsoNormalIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:35.4pt;
+	text-align:justify;
+	text-indent:19.85pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Текст примечания Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-indent:19.85pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:19.85pt;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";
+	color:#4F81BD;
+	font-weight:bold;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Название Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:24.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	letter-spacing:.25pt;
+	font-weight:bold;}
+p.MsoSignature, li.MsoSignature, div.MsoSignature
+	{mso-style-link:"Подпись Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoMessageHeader, li.MsoMessageHeader, div.MsoMessageHeader
+	{mso-style-link:"Шапка Знак";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:24.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"Подзаголовок Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:22.7pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:#4F81BD;
+	letter-spacing:.75pt;
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{font-style:normal !important;
+	text-decoration:underline;}
+pre
+	{mso-style-link:"Стандартный HTML Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Текст выноски Знак";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:19.85pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:19.85pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{mso-style-link:"Цитата 2 Знак";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:19.85pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-style:italic;}
+p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
+	{mso-style-link:"Выделенная цитата Знак";
+	margin-top:10.0pt;
+	margin-right:46.8pt;
+	margin-bottom:14.0pt;
+	margin-left:46.8pt;
+	text-align:justify;
+	text-indent:19.85pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+span.MsoSubtleEmphasis
+	{color:gray;
+	font-style:italic;}
+span.MsoIntenseEmphasis
+	{color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+span.MsoSubtleReference
+	{font-variant:small-caps;
+	color:#C0504D;
+	text-decoration:underline;}
+span.MsoIntenseReference
+	{font-variant:small-caps;
+	color:#C0504D;
+	letter-spacing:.25pt;
+	font-weight:bold;
+	text-decoration:underline;}
+span.MsoBookTitle
+	{font-variant:small-caps;
+	letter-spacing:.25pt;
+	font-weight:bold;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+span.1
+	{mso-style-name:"Заголовок 1 Знак";
+	mso-style-link:"Заголовок 1";
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+span.2
+	{mso-style-name:"Заголовок 2 Знак";
+	mso-style-link:"Заголовок 2";
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+span.3
+	{mso-style-name:"Заголовок 3 Знак";
+	mso-style-link:"Заголовок 3";
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+span.4
+	{mso-style-name:"Заголовок 4 Знак";
+	mso-style-link:"Заголовок 4";
+	font-family:"Arial","sans-serif";
+	font-weight:bold;
+	font-style:italic;}
+span.5
+	{mso-style-name:"Заголовок 5 Знак";
+	mso-style-link:"Заголовок 5";
+	font-family:"Arial","sans-serif";
+	color:#243F60;}
+span.6
+	{mso-style-name:"Заголовок 6 Знак";
+	mso-style-link:"Заголовок 6";
+	font-family:"Arial","sans-serif";
+	color:#243F60;
+	font-style:italic;}
+span.HTML
+	{mso-style-name:"Стандартный HTML Знак";
+	mso-style-link:"Стандартный HTML";
+	font-family:"Courier New";}
+span.7
+	{mso-style-name:"Заголовок 7 Знак";
+	mso-style-link:"Заголовок 7";
+	font-family:"Arial","sans-serif";
+	color:#404040;
+	font-style:italic;}
+span.8
+	{mso-style-name:"Заголовок 8 Знак";
+	mso-style-link:"Заголовок 8";
+	font-family:"Arial","sans-serif";
+	color:#4F81BD;}
+span.9
+	{mso-style-name:"Заголовок 9 Знак";
+	mso-style-link:"Заголовок 9";
+	font-family:"Arial","sans-serif";
+	color:#404040;
+	font-style:italic;}
+span.a
+	{mso-style-name:"Текст примечания Знак";
+	mso-style-link:"Текст примечания";
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+span.a0
+	{mso-style-name:"Название Знак";
+	mso-style-link:Название;
+	font-family:"Arial","sans-serif";
+	letter-spacing:.25pt;
+	font-weight:bold;}
+span.a1
+	{mso-style-name:"Подпись Знак";
+	mso-style-link:Подпись;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+span.a2
+	{mso-style-name:"Шапка Знак";
+	mso-style-link:Шапка;
+	font-family:"Arial","sans-serif";
+	font-weight:bold;}
+span.a3
+	{mso-style-name:"Подзаголовок Знак";
+	mso-style-link:Подзаголовок;
+	font-family:"Arial","sans-serif";
+	color:#4F81BD;
+	letter-spacing:.75pt;
+	font-style:italic;}
+span.a4
+	{mso-style-name:"Текст выноски Знак";
+	mso-style-link:"Текст выноски";
+	font-family:"Tahoma","sans-serif";}
+span.20
+	{mso-style-name:"Цитата 2 Знак";
+	mso-style-link:"Цитата 2";
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-style:italic;}
+span.a5
+	{mso-style-name:"Выделенная цитата Знак";
+	mso-style-link:"Выделенная цитата";
+	font-family:"Arial","sans-serif";
+	color:#4F81BD;
+	font-weight:bold;
+	font-style:italic;}
+p.msotitlecxspfirst, li.msotitlecxspfirst, div.msotitlecxspfirst
+	{mso-style-name:msotitlecxspfirst;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	letter-spacing:.25pt;
+	font-weight:bold;}
+p.msotitlecxspmiddle, li.msotitlecxspmiddle, div.msotitlecxspmiddle
+	{mso-style-name:msotitlecxspmiddle;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	letter-spacing:.25pt;
+	font-weight:bold;}
+p.msotitlecxsplast, li.msotitlecxsplast, div.msotitlecxsplast
+	{mso-style-name:msotitlecxsplast;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:24.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:14.0pt;
+	font-family:"Arial","sans-serif";
+	letter-spacing:.25pt;
+	font-weight:bold;}
+p.msolistparagraphcxspfirst, li.msolistparagraphcxspfirst, div.msolistparagraphcxspfirst
+	{mso-style-name:msolistparagraphcxspfirst;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:19.85pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.msolistparagraphcxspmiddle, li.msolistparagraphcxspmiddle, div.msolistparagraphcxspmiddle
+	{mso-style-name:msolistparagraphcxspmiddle;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:19.85pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.msolistparagraphcxsplast, li.msolistparagraphcxsplast, div.msolistparagraphcxsplast
+	{mso-style-name:msolistparagraphcxsplast;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:19.85pt;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.a6, li.a6, div.a6
+	{mso-style-name:Реквизит;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.a7, li.a7, div.a7
+	{mso-style-name:Редакции;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:24.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.msopapdefault, li.msopapdefault, div.msopapdefault
+	{mso-style-name:msopapdefault;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Arial","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+

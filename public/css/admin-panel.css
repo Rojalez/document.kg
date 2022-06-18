@@ -1,0 +1,99 @@
+.admin-panel-menu{
+  height: 100%;
+  background: rgb(241, 241, 241);
+
+}
+
+#forma-zapolneniya{
+  height: auto;
+  background: rgb(241, 241, 241);
+
+}
+
+
+
+
+.hidden {
+  display: none;
+}
+
+.metka {
+  height: 10px;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid #28a745;
+  border-radius: .25rem;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+ .zagolovoc .metka{
+    height: 10px;
+    width: 95%;
+  }
+  
+}
+
+.zagolovoc .metka{
+ width: 90%;
+}
+
+
+
+.otmechen {
+  margin-top: 10px;
+  height: 10px;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid #28a745;
+  border-radius: .25rem;
+  margin-bottom: 25px;
+
+}
+@media (max-width: 768px) {
+ .zagolovoc .otmechen{
+    height: 10px;
+    width: 95%;
+    border-radius: .25rem;
+  }
+  
+}
+.zagolovoc .otmechen{
+ width: 90%;
+}
+
+
+
+.priyazka-input-with-block{
+  background-color: #6c757d;
+  border-radius: .375rem;
+  width: 100%;
+  color: white;
+  
+}
+
+
+
+#dobavit-eshe{
+  text-align: center;
+}
+
+
+#dobavit-block-v-radioblock{
+  text-align: center;
+}
+
+
+
+#dobavit-element{
+text-align: center;
+}
+
+span[contenteditable='true'] {
+  color:black;
+}
